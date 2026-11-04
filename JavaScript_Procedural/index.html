@@ -8,7 +8,8 @@
 <body>
 
     <div class="container">
-        <h3>Student Quiz Calculator</h3>
+
+        <h2>Student Quiz Calculator</h2>
 
         <div class="form-group">
             <label>Student Name:</label>
@@ -36,8 +37,19 @@
         </div>
 
         <p id="result">Result will appear here</p>
+
+        <h3>Quiz History:</h3>
+
+        <div id="history"></div>
+
+        <div class="history-buttons">
+            <button onclick="deleteSelected()">Delete Selected</button>
+            <button onclick="deleteAll()">Delete All</button>
+        </div>
+
     </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
